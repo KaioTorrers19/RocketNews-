@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketNews</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <main class="flex content-around h-screen">
+        <aside class="bg-[#121214] w-6/12 relative">
+            <div id="logo" class="w-96 pt-14 pl-8">
+                <img src="assets/logo.svg">
+            </div>
+            <div id="texts" class="mt-32 ml-8 mb-12">
+                <h1 class="text-[#08C05E] font-league text-2xl font-bold">atualize ideias e informações em 5 minutos.</h1>
+                <div id="description">
+                    <p class="text-white font-bold font-league text-sm mt-2 ml-2">tudo que você precisa saber para começar seu dia bem e informado</p>
+                    <p class="text-white m-2 font-league font-normal">noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.<br>
+                        perfeito para se preparar para codar ☕</p>
+                </div>
+            </div>
+            <div id="form" class="ml-10 mt-30 relative z-10">
+                <label for="email" class="text-[#A8A8A8] mr-2">Insira seu e-mail:</label>
+                <form class="flex items-center">
+                    <br><br><br>
+                    <div class="flex">
+                        <input type="email"  placeholder="oi@gmail.com"  class="w-750 h-12 pl-2" >
+                        <button  type="submit"  class="bg-[#8257E5] w-12 h-12 rounded flex justify-center items-center focus:outline-none"><img src="assets/send.png" class="text-white" alt="Seta"></button>
+                    </div>
+                </form>
+            </div>
+            <div class="mt-4 ml-10">
+                <a class="text-[#8257E5] flex items-center" href="#">deixe-me ler primeiro <img src="assets/arrow-right.svg" alt="seta" class="ml-2"></a>
+            </div>
+        </aside>
+        <div id="image" class="w-6/12 h-full">
+            <img src="assets/read_news.jpg" class="w-full h-full">
+        </div>
+    </main>
+</body>
+</html>
