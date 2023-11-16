@@ -29,10 +29,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 - Tailwind CSS
-
 ## 💻 Projeto
 
 Projeto feito seguindo o desafio da Rocketseat com base no figma, meus primeiro projetos com Tailwind CSS para estudar a ferramenta.
+
+Veja como instalar o Tailwind CSS passo a passo em sua máquina. [Documentção do Tailwind CSS ](https://tailwindcss.com/docs/installation)
 
 ## 🔖 Layout
 
